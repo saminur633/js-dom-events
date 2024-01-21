@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Box</title>
+</head>
+<body>
+    <h1>Pleade add your comment</h1>
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nostrum rem porro sit, aperiam sed cupiditate nesciunt fugit exercitationem, omnis id cumque laboriosam adipisci impedit quas debitis sapiente quidem cum commodi? Doloribus, vel voluptas. Nostrum inventore culpa doloribus itaque, voluptates vel! Placeat, dolores culpa? Omnis suscipit tempore qui. Magnam, est?</p>
+    <p>Dolores beatae, dolorem illo in officiis cumque praesentium maiores quisquam esse quas vel ipsum neque laborum minima aliquid commodi optio culpa quos dignissimos pariatur vitae sint autem voluptatem a? Ullam repellendus ut dicta modi porro. Quibusdam, reiciendis sequi unde quam molestiae mollitia repellat. Quas molestiae odio quos vitae aliquid dolorem!</p>
+    <p>Optio, accusamus? Enim adipisci mollitia incidunt, nostrum cupiditate quod unde vitae at. Reprehenderit sapiente ab repudiandae esse animi, quod ad quibusdam quidem autem odio facilis vel eius ullam aliquid laborum obcaecati, labore consectetur nisi quam natus. Odit eaque perspiciatis iure eveniet iste quos cupiditate, accusantium mollitia consectetur, eius nemo odio!</p>
+    </div>
+    <div>
+        <textarea name="text" id="new-comment" cols="60" rows="5"></textarea>
+        <br>
+        <button id=" btn-post">Post</button>
+    </div>
+    <script>
+        document.getElementById('btn-post').addEventListener('click', function(){
+            const commentbox = document.getElementById('new-comment');
+            const newcomment = commentbox.value;
+            console.log(newcomment);
+        })
+    </script>
+</body>
+</html>
